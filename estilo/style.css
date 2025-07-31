@@ -36,9 +36,6 @@ header {
 }
 
 
-#titulo {
-}
-
 #titulo > h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5em;
@@ -98,4 +95,87 @@ header {
     color: white;
     border: none;
     border-radius: 3px;
+}
+
+
+#competencias {
+    align-items: center;
+    justify-content: space-around;
+    height: 350px ;
+    display: flex;
+    gap: 10px;
+}
+
+.divcomp {
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.divcomp:hover {
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.368);
+}
+
+.divcomp > img {
+    width: 70px;
+}
+
+.divcomp > h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.divcomp > p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fotoeusuario {
+    margin: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    height: 500px;
+}
+
+#casaimg {
+    background-size: cover;
+    border-radius: 10px;
+    height: 500px;
+    width: 3100px;
+    background-image: url(../imagens/casa.png);
+}
+
+#usuarios {
+    text-align: left;
+    padding: 40px;
+}
+
+#usuarios > h1 {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#usuarios > p {
+    margin-bottom: 30px;
+    color: rgb(73, 73, 73);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#usuarios > img {
+    margin-bottom: 30px;
+}
+
+#usuarios > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+#casas {
+    margin: 20px;
 }
