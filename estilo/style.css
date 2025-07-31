@@ -87,6 +87,7 @@ header {
 }
 
 .botao {
+    cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 170px;
@@ -139,7 +140,7 @@ header {
     margin: 30px;
     justify-content: space-evenly;
     display: flex;
-    height: 500px;
+    height: 520px;
 }
 
 #casaimg {
@@ -177,5 +178,99 @@ header {
 }
 
 #casas {
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(white, rgb(220, 220, 220));
+}
+
+#escolha {
+
+    text-indent: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#m30 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+#casasflex {
+    gap: px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.casasend {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    width: 290px;
+    height: 270px;
+}
+
+.casainput{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
     margin: 20px;
+    width: 200px;
+    padding: 13px;
+    border: none;
+    background-color: #FD830E;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.casasend > img {
+    width: 90px;
+}
+
+.casasend > p {
+    line-height: 25px;
+    color: rgb(73, 73, 73);
+}
+
+.casasend > h3 {
+    font-size: 1.9em;
+}
+
+#fotoaside {
+    height: 350px;
+    background-color:#009662;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 280px;
+    background-size: cover;
+    background-image: url(../imagens/background-newsletter.png);
+}
+
+#sub > h1 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sub > p {
+    color: rgb(37, 37, 37);
+    font-size: 1.3em;
+}
+
+#iemail {
+    background-color: #FBEFD9;
 }
